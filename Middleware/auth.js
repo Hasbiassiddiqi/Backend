@@ -5,7 +5,7 @@ exports.authRegist = (req, res, next) => {
   );
   if (!checkEmail) {
     res.status(400).json({
-      msg: "You have Entered Invalid Email Adress Gus",
+      msg: "You have Entered Invalid Email Adress Gus yang penting enjoy",
     });
   } else if (!username) {
     res.status(400).json({
